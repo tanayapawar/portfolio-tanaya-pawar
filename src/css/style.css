@@ -1,0 +1,144 @@
+body{
+    font-family: 'Chilanka', cursive;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    background-color: #161642;
+    padding: 6rem 8rem;
+}
+#banner .header{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+#banner .header h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+#banner .header h1 span{
+     color: #ab2537fa;
+}
+#banner .header h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+#banner .btn-outline-primary {
+    color: #fff;
+    border-radius: 0;
+    padding: 0.7rem 2rem;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fff;
+}
+#banner .btn-outline-primary:hover {
+    color: #161642;
+    font-weight: bold;
+    background-color: #fff;
+    background-image: none;
+    border-color: #fff;
+}
+#about{
+    padding: 5rem 8rem 4rem;
+}
+#about .about-me h1{
+    color: #ab2537fa;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+#skills {
+    padding: 4rem 8rem 4rem;
+    background-color: #80808026;
+}
+#skills .left, .right{
+    display: flex;
+    align-items: center;
+        justify-content: center;
+}
+#skills .left h3{
+color:#161642;
+font-size: 4rem;
+font-weight: bold;
+}
+#skills .designer-skills{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+}
+
+#skills .designer-skills .item{
+background: #161642;
+color: #ffffff;
+padding: 3rem;
+margin: 2px;
+flex: 1 0 auto;
+}
+
+#skills .right h3 {
+    color: #ab2537fa;
+font-size: 4rem;
+font-weight: bold;
+}
+#skills .developer-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#skills .developer-skills .item {
+    background: #ab2537fa;
+    color: #ffffff;
+    padding: 3rem;
+    margin: 2px;
+    flex: 1 0 auto;
+}
+#contact{
+    background-color: #161642;
+      color: #ffffff;
+       padding: 2rem 6rem 2rem;
+}
+#contact .contact-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 840px) {
+#skills .coder {
+    flex-direction: column-reverse;
+}
+}
+@media only screen and (max-width: 600px) {
+    #banner {
+        padding: 6rem 4rem;
+    }
+
+    #banner .header h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+  #banner .btn-outline-primary {
+      width: 100%;
+  }
+  #about {
+      padding: 5rem 4rem 4rem;
+  }
+#skills {
+    padding: 4rem 4rem 4rem;
+}
+#skills .designer-skills .item {
+    flex: 0 0 100%;
+}
+#skills .developer-skills .item {
+   flex: 0 0 100%;
+}
+
+#contact {
+    padding: 2rem 5rem 1rem;
+}
+}

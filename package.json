@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-tanaya-pawar",
+  "version": "1.0.0",
+  "description": "Portfolio Tanaya Pawar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanayapawar/portfolio-tanaya-pawar.git"
+  },
+  "author": "tanaya pawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanayapawar/portfolio-tanaya-pawar/issues"
+  },
+  "homepage": "https://github.com/tanayapawar/portfolio-tanaya-pawar#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
